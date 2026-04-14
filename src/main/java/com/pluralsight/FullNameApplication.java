@@ -6,14 +6,14 @@ public class FullNameApplication {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter your name below:");
         System.out.print("\nFirst Name: ");
-        String fullName = scanner.nextLine();
+        String fullName = scanner.nextLine().trim();
         System.out.print("\nMiddle Name: ");
-        fullName += " " + scanner.nextLine();
+        fullName += " " + scanner.nextLine().trim();
         System.out.print("\nLast Name: ");
-        fullName += " " + scanner.nextLine();
+        fullName += " " + scanner.nextLine().trim();
         System.out.print("\nSuffix: ");
-        fullName += " " + scanner.nextLine();
+        fullName += " " + scanner.nextLine().trim();
 
-        System.out.println(fullName);
+        System.out.println(fullName.trim());
     }
 }
