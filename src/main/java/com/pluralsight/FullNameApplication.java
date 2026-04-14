@@ -12,7 +12,7 @@ public class FullNameApplication {
         System.out.print("\nLast Name: ");
         fullName += " " + scanner.nextLine().trim();
         System.out.print("\nSuffix: ");
-        fullName += " " + scanner.nextLine().trim();
+        fullName += ", " + scanner.nextLine().trim();
 
         System.out.println(fullName.trim());
     }
